@@ -2,6 +2,9 @@ node_modules
 npm-debug.log
 .DS_Store
 
+# Uploaded files
+uploads/
+
 # dotenv environment files
 .env
 .env.*
