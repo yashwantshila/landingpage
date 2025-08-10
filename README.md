@@ -11,6 +11,12 @@ npm start
 
 Then open [http://localhost:3000](http://localhost:3000).
 
+### Admin Login
+
+Create a `.env` file based on `.env.example` and set the admin credentials. The admin
+panel at `/admin` will redirect to `/login` until the correct username and password
+are provided.
+
 ## Test
 
 ```bash
