@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UGC NET Solved PYQs – English & Hindi | Subject‑wise PDFs + Free Samples</title>
+  <meta name="description" content="Buy subject‑wise UGC NET solved PYQs (English & Hindi medium). Clean, well‑structured PDFs with step‑by‑step solutions. Free sample PDF for every subject." />
+  <meta name="theme-color" content="#6D28D9" />
+  <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            accent: {
+              DEFAULT: 'var(--accent)',
+              50: '#f5f0ff',
+            }
+          },
+          keyframes: {
+            float: { '0%,100%': { transform: 'translateY(0)' }, '50%': { transform: 'translateY(-10px)' } },
+            shimmer: { '0%': { backgroundPosition: '-200% 0' }, '100%': { backgroundPosition: '200% 0' } },
+            pop: { '0%': { transform:'scale(.96)', opacity:.6 }, '100%': { transform:'scale(1)', opacity:1 } },
+            fadeUp: { '0%': { opacity:0, transform:'translateY(16px)'}, '100%': { opacity:1, transform:'translateY(0)'} },
+            spinSlow: { '0%': { transform:'rotate(0deg)'}, '100%': { transform:'rotate(360deg)'} },
+          },
+          animation: {
+            float: 'float 6s ease-in-out infinite',
+            shimmer: 'shimmer 2s linear infinite',
+            pop: 'pop .4s ease forwards',
+            fadeUp: 'fadeUp .6s ease forwards',
+            spinSlow: 'spinSlow 18s linear infinite',
+          },
+          boxShadow: {
+            glow: '0 10px 30px -5px rgba(109,40,217,.45), 0 8px 16px -8px rgba(0,0,0,.25)'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    :root{--accent:#6D28D9;}
+    .reveal{opacity:0; transform: translateY(18px); transition: opacity .6s ease, transform .6s ease;}
+    .revealed{opacity:1; transform: translateY(0);}    
+    .glass{backdrop-filter: blur(10px); background: linear-gradient(180deg, rgba(255,255,255,.65), rgba(255,255,255,.3));}
+    .dark .glass{background: linear-gradient(180deg, rgba(17,24,39,.6), rgba(17,24,39,.3));}
+    .btn{--tw-ring-color: var(--accent);}
+    .btn:focus{outline: none; box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 30%, transparent);} 
+    .accent-gradient{background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 85%, white) 0%, var(--accent) 50%, color-mix(in srgb, var(--accent) 60%, black) 100%);} 
+    .text-gradient{background: linear-gradient(135deg, var(--accent), #0ea5e9); -webkit-background-clip:text; background-clip:text; color: transparent;}
+    .shine{background-image: linear-gradient(90deg, transparent, rgba(255,255,255,.3), transparent); background-size: 200% 100%;}
+  </style>
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "UGC NET Solved PYQs (English & Hindi)",
+    "description": "Subject-wise solved previous year question papers with step-by-step solutions. Free sample PDF for each subject.",
+    "brand": {"@type":"Brand","name":"UGC NET Prep"},
+    "offers": {"@type": "AggregateOffer", "priceCurrency": "INR", "lowPrice": "99", "highPrice": "299"}
+  }
+  </script>
+</head>
+<body class="bg-gradient-to-b from-white to-slate-50 text-slate-800 dark:from-slate-950 dark:to-slate-900 dark:text-slate-100 min-h-screen">
+
+  <!-- Floating Controls -->
+  <div class="fixed z-50 bottom-6 right-6">
+    <div class="glass shadow-xl rounded-2xl p-3 md:p-4 border border-white/40 dark:border-slate-700/60">
+      <div class="flex items-center gap-2">
+        <button id="toggleDark" class="btn inline-flex items-center gap-2 px-3 py-2 rounded-xl bg-slate-900 text-white dark:bg-white dark:text-slate-900 transition hover:scale-[1.03] active:scale-95" title="Toggle dark mode">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <span class="hidden md:inline" data-i18n="dark">Dark</span>
+        </button>
+        <label class="flex items-center gap-2 px-3 py-2 bg-white/70 dark:bg-slate-800/70 rounded-xl border border-white/50 dark:border-slate-700">
+          <span class="text-xs opacity-70" data-i18n="accent">Accent</span>
+          <input id="accentPicker" type="color" value="#6D28D9" class="h-7 w-10 rounded border-0 bg-transparent" />
+        </label>
+        <div class="flex items-center gap-2 px-3 py-2 bg-white/70 dark:bg-slate-800/70 rounded-xl border border-white/50 dark:border-slate-700">
+          <span class="text-xs opacity-70">EN</span>
+          <label class="relative inline-flex cursor-pointer select-none items-center">
+            <input type="checkbox" id="langToggle" class="sr-only" />
+            <span class="h-6 w-11 rounded-full bg-slate-300 dark:bg-slate-700 after:content-[''] after:absolute after:h-5 after:w-5 after:rounded-full after:bg-white after:top-0.5 after:left-0.5 after:transition-all peer checked:after:left-5"></span>
+          </label>
+          <span class="text-xs opacity-70">HI</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="relative overflow-hidden">
+    <div class="pointer-events-none absolute inset-0 -z-10">
+      <div class="absolute -top-28 -left-24 h-72 w-72 rounded-full accent-gradient blur-3xl opacity-20 animate-float"></div>
+      <div class="absolute -bottom-24 -right-20 h-72 w-72 rounded-full bg-cyan-400/40 blur-3xl opacity-50 animate-float" style="animation-delay:1.2s"></div>
+      <svg class="absolute right-20 top-16 w-24 h-24 opacity-15 animate-spinSlow" viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="45" stroke="currentColor" stroke-width="2" stroke-dasharray="6 10"/></svg>
+    </div>
+
+    <nav class="max-w-7xl mx-auto px-4 md:px-6 py-5 flex items-center justify-between">
+      <a href="#top" class="flex items-center gap-3 group">
+        <div class="h-10 w-10 rounded-xl accent-gradient shadow-glow grid place-items-center text-white font-bold">U</div>
+        <span class="font-extrabold tracking-tight text-lg">UGC NET PYQs</span>
+      </a>
+      <div class="hidden md:flex items-center gap-6">
+        <a href="#subjects" class="hover:text-[color:var(--accent)]" data-i18n="nav_subjects">Subjects</a>
+        <a href="#features" class="hover:text-[color:var(--accent)]" data-i18n="nav_features">Features</a>
+        <a href="#pricing" class="hover:text-[color:var(--accent)]" data-i18n="nav_pricing">Pricing</a>
+        <a href="#faqs" class="hover:text-[color:var(--accent)]" data-i18n="nav_faqs">FAQs</a>
+        <a href="#contact" class="px-4 py-2 rounded-xl bg-[color:var(--accent)] text-white shadow-glow hover:opacity-90 btn" data-i18n="nav_cta">Get Sample</a>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="max-w-7xl mx-auto px-4 md:px-6 py-8 md:py-16 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <p class="inline-flex items-center gap-2 text-xs md:text-sm px-3 py-1 rounded-full bg-accent-50 text-[color:var(--accent)] border border-[color:var(--accent)]/20">
+          <span>🎯</span><span data-i18n="hero_badge">Focused prep for UGC NET</span>
+        </p>
+        <h1 class="mt-4 text-3xl md:text-5xl font-black leading-tight text-gradient" data-i18n="hero_title">
+          Solved PYQs – English & Hindi. Subject‑wise PDFs. Free sample for every subject.
+        </h1>
+        <p class="mt-4 text-base md:text-lg opacity-80" data-i18n="hero_sub">
+          Master UGC NET faster with clean, step‑by‑step solutions and exam‑oriented explanations. Download instantly.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#subjects" class="px-5 py-3 rounded-xl bg-[color:var(--accent)] text-white shadow-glow hover:scale-[1.02] active:scale-95 transition btn" data-i18n="cta_primary">Browse Subjects</a>
+          <a href="#pricing" class="px-5 py-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 hover:scale-[1.02] active:scale-95 transition" data-i18n="cta_secondary">See Pricing</a>
+        </div>
+        <div class="mt-6 flex items-center gap-6 text-sm opacity-80">
+          <div class="flex items-center gap-2"><span>⭐</span><span data-i18n="stat_rating">4.9/5 from 2,000+ learners</span></div>
+          <div class="flex items-center gap-2"><span>⚡</span><span data-i18n="stat_instant">Instant download</span></div>
+          <div class="flex items-center gap-2"><span>🧪</span><span data-i18n="stat_samples">Free samples</span></div>
+        </div>
+      </div>
+      <div class="relative">
+        <!-- Showcase mockup -->
+        <div class="relative mx-auto w-full max-w-md">
+          <div class="absolute -inset-6 rounded-3xl blur-2xl opacity-30 accent-gradient"></div>
+          <div class="relative rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-2xl bg-white dark:bg-slate-900">
+            <div class="p-4 bg-slate-50 dark:bg-slate-800 flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="h-3 w-3 rounded-full bg-red-400"></span>
+                <span class="h-3 w-3 rounded-full bg-yellow-400"></span>
+                <span class="h-3 w-3 rounded-full bg-green-400"></span>
+              </div>
+              <div class="text-xs opacity-70">sample.pdf</div>
+            </div>
+            <div class="p-6 grid gap-4">
+              <div class="h-36 rounded-xl bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-700 grid place-items-center relative overflow-hidden">
+                <svg class="absolute inset-0 w-full h-full opacity-25" viewBox="0 0 200 200">
+                  <defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="var(--accent)"/><stop offset="100%" stop-color="#0ea5e9"/></linearGradient></defs>
+                  <rect x="20" y="20" width="160" height="20" rx="6" fill="url(#g1)" />
+                  <rect x="20" y="60" width="140" height="20" rx="6" fill="url(#g1)" />
+                  <rect x="20" y="100" width="120" height="20" rx="6" fill="url(#g1)" />
+                </svg>
+                <div class="shine animate-shimmer absolute inset-0"></div>
+                <div class="relative text-center">
+                  <div class="text-xs uppercase tracking-widest opacity-60 mb-1" data-i18n="mockup_title">Solved PYQs PDF</div>
+                  <div class="text-2xl font-extrabold">Paper I – Teaching Aptitude</div>
+                </div>
+              </div>
+              <ul class="text-sm space-y-2">
+                <li class="flex items-start gap-2"><span>✅</span><span data-i18n="mockup_b1">Clean layout with topic tags</span></li>
+                <li class="flex items-start gap-2"><span>✅</span><span data-i18n="mockup_b2">Step-by-step solutions</span></li>
+                <li class="flex items-start gap-2"><span>✅</span><span data-i18n="mockup_b3">Important notes + tricks</span></li>
+              </ul>
+              <div class="flex items-center gap-3">
+                <button class="px-4 py-2 rounded-lg bg-[color:var(--accent)] text-white btn" onclick="openSample('Paper I – Teaching Aptitude')" data-i18n="btn_view_sample">View Sample</button>
+                <button class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700" onclick="openCheckout('Paper I – Teaching Aptitude')" data-i18n="btn_buy">Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <!-- Logos / trust -->
+  <section aria-label="trust" class="py-10 md:py-14">
+    <div class="max-w-7xl mx-auto px-4 md:px-6">
+      <div class="grid grid-cols-2 md:grid-cols-6 gap-6 items-center opacity-70">
+        <div class="text-center text-xs">Secure PDF</div>
+        <div class="text-center text-xs">Instant Download</div>
+        <div class="text-center text-xs">UPI / Card</div>
+        <div class="text-center text-xs">Sample First</div>
+        <div class="text-center text-xs">English</div>
+        <div class="text-center text-xs">हिन्दी</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="py-12 md:py-20 bg-white/60 dark:bg-slate-900/50">
+    <div class="max-w-7xl mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div class="reveal">
+        <h2 class="text-2xl md:text-4xl font-extrabold mb-4" data-i18n="feat_title">Why our PYQs work 🚀</h2>
+        <p class="opacity-80 mb-6" data-i18n="feat_sub">Exam‑oriented solutions distilled from previous papers, aligned to the latest pattern. Save time, boost accuracy.</p>
+        <div class="grid gap-4">
+          <div class="p-4 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 flex gap-4 items-start">
+            <div class="h-10 w-10 rounded-xl grid place-items-center text-white accent-gradient shadow-glow">1</div>
+            <div>
+              <div class="font-bold" data-i18n="feat_1_t">Two mediums</div>
+              <div class="text-sm opacity-80" data-i18n="feat_1_d">Every subject in English and Hindi, consistent formatting.</div>
+            </div>
+          </div>
+          <div class="p-4 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 flex gap-4 items-start">
+            <div class="h-10 w-10 rounded-xl grid place-items-center text-white accent-gradient shadow-glow">2</div>
+            <div>
+              <div class="font-bold" data-i18n="feat_2_t">Free sample before buy</div>
+              <div class="text-sm opacity-80" data-i18n="feat_2_d">Preview a few pages to judge clarity & depth.</div>
+            </div>
+          </div>
+          <div class="p-4 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 flex gap-4 items-start">
+            <div class="h-10 w-10 rounded-xl grid place-items-center text-white accent-gradient shadow-glow">3</div>
+            <div>
+              <div class="font-bold" data-i18n="feat_3_t">Topic tags & shortcuts</div>
+              <div class="text-sm opacity-80" data-i18n="feat_3_d">Important formulas, mnemonics, and last‑minute notes.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid gap-5 reveal">
+        <!-- Decorative showcase cards -->
+        <div class="p-5 rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-lg">
+          <div class="flex items-center justify-between mb-3"><div class="font-bold">Paper I</div><div class="text-xs opacity-70">Teaching & Research Aptitude</div></div>
+          <div class="h-24 rounded-xl bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-700 relative overflow-hidden">
+            <div class="shine animate-shimmer absolute inset-0"></div>
+          </div>
+          <div class="mt-3 text-sm opacity-80">100+ curated PYQs with detailed solutions</div>
+        </div>
+        <div class="p-5 rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-lg">
+          <div class="flex items-center justify-between mb-3"><div class="font-bold">Commerce</div><div class="text-xs opacity-70">Accounting, Finance, Marketing</div></div>
+          <div class="h-24 rounded-xl bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-700 relative overflow-hidden grid place-items-center">
+            <svg class="w-24 h-24 opacity-25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M7 21h10"/><path d="M9 7h6M9 11h6"/></svg>
+          </div>
+          <div class="mt-3 text-sm opacity-80">All topics covered as per syllabus</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subjects -->
+  <section id="subjects" class="py-12 md:py-20">
+    <div class="max-w-7xl mx-auto px-4 md:px-6">
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-6">
+        <div>
+          <h2 class="text-2xl md:text-4xl font-extrabold" data-i18n="subj_title">Choose your subject 📚</h2>
+          <p class="opacity-80" data-i18n="subj_sub">Each subject includes solved PYQs + free sample. Select medium on the card.</p>
+        </div>
+        <div class="flex gap-3 items-center">
+          <input id="search" type="search" placeholder="Search subjects..." class="px-4 py-3 rounded-2xl border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-900/70 w-full md:w-80" />
+          <select id="filterMedium" class="px-4 py-3 rounded-2xl border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-900/70">
+            <option value="all">All</option>
+            <option value="English">English</option>
+            <option value="Hindi">Hindi</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="subjectGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <!-- Cards injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="py-12 md:py-20 bg-white/60 dark:bg-slate-900/50">
+    <div class="max-w-7xl mx-auto px-4 md:px-6 text-center">
+      <h2 class="text-2xl md:text-4xl font-extrabold mb-3" data-i18n="price_title">Simple pricing 💳</h2>
+      <p class="opacity-80 mb-8" data-i18n="price_sub">Pay per subject or get a bundle. Instant download. UPI & cards accepted.</p>
+
+      <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <div class="p-6 rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-left reveal">
+          <div class="text-sm font-semibold opacity-70 mb-1" data-i18n="plan1_badge">Starter</div>
+          <div class="text-3xl font-black">₹99<span class="text-base font-semibold opacity-60" data-i18n="plan1_unit">/subject</span></div>
+          <ul class="mt-4 space-y-2 text-sm">
+            <li>✅ <span data-i18n="plan_point_sample">Free sample</span></li>
+            <li>✅ <span data-i18n="plan_point_updates">Lifetime access</span></li>
+            <li>✅ <span data-i18n="plan_point_mediums">English/Hindi</span></li>
+          </ul>
+          <button class="mt-5 w-full px-4 py-3 rounded-xl bg-[color:var(--accent)] text-white btn" onclick="scrollToEl('#subjects')" data-i18n="plan1_cta">Buy Subject</button>
+        </div>
+        <div class="p-6 rounded-3xl border-2 border-[color:var(--accent)] bg-accent-50 text-left shadow-glow scale-[1.02] reveal">
+          <div class="text-sm font-semibold mb-1 text-[color:var(--accent)]" data-i18n="plan2_badge">Popular</div>
+          <div class="text-3xl font-black">₹399<span class="text-base font-semibold opacity-60" data-i18n="plan2_unit">/any 5</span></div>
+          <ul class="mt-4 space-y-2 text-sm">
+            <li>✅ <span data-i18n="plan2_point1">Pick any 5 subjects</span></li>
+            <li>✅ <span data-i18n="plan_point_updates">Lifetime access</span></li>
+            <li>✅ <span data-i18n="plan_point_mediums">English/Hindi</span></li>
+          </ul>
+          <button class="mt-5 w-full px-4 py-3 rounded-xl bg-[color:var(--accent)] text-white btn" onclick="openCheckout('Bundle – 5 Subjects')" data-i18n="plan2_cta">Get Bundle</button>
+        </div>
+        <div class="p-6 rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-left reveal">
+          <div class="text-sm font-semibold opacity-70 mb-1" data-i18n="plan3_badge">Complete</div>
+          <div class="text-3xl font-black">₹1299<span class="text-base font-semibold opacity-60" data-i18n="plan3_unit">/all subjects</span></div>
+          <ul class="mt-4 space-y-2 text-sm">
+            <li>✅ <span data-i18n="plan3_point1">All current subjects</span></li>
+            <li>✅ <span data-i18n="plan_point_updates">Lifetime access</span></li>
+            <li>✅ <span data-i18n="plan_point_mediums">English/Hindi</span></li>
+          </ul>
+          <button class="mt-5 w-full px-4 py-3 rounded-xl bg-[color:var(--accent)] text-white btn" onclick="openCheckout('Complete Pack – All Subjects')" data-i18n="plan3_cta">Get Complete</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-12 md:py-20">
+    <div class="max-w-7xl mx-auto px-4 md:px-6">
+      <div class="text-center mb-8">
+        <h2 class="text-2xl md:text-4xl font-extrabold" data-i18n="test_title">Learners love it ❤️</h2>
+        <p class="opacity-80" data-i18n="test_sub">Clarity + exam focus = confidence.</p>
+      </div>
+      <div id="testimonialTrack" class="grid md:grid-cols-3 gap-6">
+        <!-- Testimonials injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQs -->
+  <section id="faqs" class="py-12 md:py-20 bg-white/60 dark:bg-slate-900/50">
+    <div class="max-w-5xl mx-auto px-4 md:px-6">
+      <h2 class="text-2xl md:text-4xl font-extrabold text-center mb-6" data-i18n="faq_title">FAQs 🙋</h2>
+      <div class="space-y-4">
+        <details class="group p-4 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 reveal">
+          <summary class="flex items-center justify-between cursor-pointer list-none">
+            <span class="font-semibold" data-i18n="faq1_q">How do I get the sample PDF?</span>
+            <svg class="w-5 h-5 transition group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </summary>
+          <p class="mt-2 opacity-80" data-i18n="faq1_a">Click “View Sample” on any subject card. A preview modal opens with a sample link.</p>
+        </details>
+        <details class="group p-4 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 reveal">
+          <summary class="flex items-center justify-between cursor-pointer list-none">
+            <span class="font-semibold" data-i18n="faq2_q">Are these updated to the latest pattern?</span>
+            <svg class="w-5 h-5 transition group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </summary>
+          <p class="mt-2 opacity-80" data-i18n="faq2_a">Yes. We regularly review papers and refine explanations to match current trends.</p>
+        </details>
+        <details class="group p-4 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 reveal">
+          <summary class="flex items-center justify-between cursor-pointer list-none">
+            <span class="font-semibold" data-i18n="faq3_q">Which payment methods are supported?</span>
+            <svg class="w-5 h-5 transition group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </summary>
+          <p class="mt-2 opacity-80" data-i18n="faq3_a">UPI, netbanking, and cards. After payment you get an instant download link.</p>
+        </details>
+        <details class="group p-4 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 reveal">
+          <summary class="flex items-center justify-between cursor-pointer list-none">
+            <span class="font-semibold" data-i18n="faq4_q">Do I get both English & Hindi?</span>
+            <svg class="w-5 h-5 transition group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </summary>
+          <p class="mt-2 opacity-80" data-i18n="faq4_a">You can purchase in your preferred medium. Both are available for all subjects listed.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-12 md:py-20">
+    <div class="max-w-5xl mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-10 items-center">
+      <div class="reveal">
+        <h2 class="text-2xl md:text-4xl font-extrabold mb-3" data-i18n="contact_title">Get your free sample now ✉️</h2>
+        <p class="opacity-80 mb-5" data-i18n="contact_sub">Drop your email and subject. We’ll send the sample link instantly.</p>
+        <form onsubmit="event.preventDefault(); fakeSubmit();" class="grid gap-3">
+          <input required type="email" placeholder="Email" class="px-4 py-3 rounded-2xl border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-900/70" />
+          <input required type="text" placeholder="Subject (e.g., Commerce)" class="px-4 py-3 rounded-2xl border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-900/70" />
+          <button class="px-5 py-3 rounded-2xl bg-[color:var(--accent)] text-white shadow-glow btn" data-i18n="contact_cta">Send me the sample</button>
+          <div id="formNote" class="text-sm opacity-70"></div>
+        </form>
+      </div>
+      <div class="reveal">
+        <div class="p-6 rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-lg">
+          <h3 class="font-bold mb-2" data-i18n="support_title">Prefer WhatsApp?</h3>
+          <p class="opacity-80 text-sm" data-i18n="support_sub">Ping us with subject name. We’ll reply with the sample & checkout link.</p>
+          <a href="https://wa.me/910000000000" class="inline-flex items-center gap-2 mt-3 px-4 py-2 rounded-xl bg-emerald-500 text-white btn" target="_blank" rel="noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163A11.867 11.867 0 0112.02 0C18.627 0 24 5.373 24 11.98c0 6.606-5.373 11.98-11.98 11.98a11.94 11.94 0 01-6.112-1.693L.057 24zm6.597-3.807c1.748.995 3.05 1.591 5.347 1.591 5.448 0 9.886-4.438 9.886-9.885 0-5.448-4.438-9.886-9.886-9.886-5.447 0-9.885 4.438-9.885 9.886 0 2.272.82 4.363 2.188 6.01l-.574 2.095 2.924-.811z"/></svg>
+            <span>WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 md:px-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+      <div class="opacity-80 text-sm">© <span id="yr"></span> UGC NET PYQs • <span data-i18n="foot_rights">All rights reserved.</span></div>
+      <div class="flex gap-4 text-sm">
+        <a href="#" class="hover:text-[color:var(--accent)]" data-i18n="foot_terms">Terms</a>
+        <a href="#" class="hover:text-[color:var(--accent)]" data-i18n="foot_privacy">Privacy</a>
+        <a href="#" class="hover:text-[color:var(--accent)]" data-i18n="foot_refund">Refund Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky mobile CTA -->
+  <div class="fixed bottom-0 inset-x-0 z-40 md:hidden p-3">
+    <div class="rounded-2xl shadow-glow bg-[color:var(--accent)] text-white flex items-center justify-between p-3">
+      <div class="text-sm font-semibold">UGC NET PYQs</div>
+      <button onclick="scrollToEl('#subjects')" class="px-4 py-2 rounded-xl bg-white/10 border border-white/20">Browse</button>
+    </div>
+  </div>
+
+  <!-- Modals -->
+  <div id="modal" class="fixed inset-0 z-50 hidden">
+    <div class="absolute inset-0 bg-black/50" onclick="closeModal()"></div>
+    <div class="relative max-w-2xl mx-auto mt-24 bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-2xl overflow-hidden animate-pop">
+      <div class="flex items-center justify-between p-4 border-b border-slate-200 dark:border-slate-800">
+        <div id="modalTitle" class="font-bold">Title</div>
+        <button onclick="closeModal()" class="p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800">✕</button>
+      </div>
+      <div id="modalBody" class="p-5">
+        <!-- Filled dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const subjects = [
+      { name: 'Paper I – Teaching & Research Aptitude', slug:'paper1', topics:['Teaching Methods','Research','Maths'], price:99 },
+      { name: 'Commerce', slug:'commerce', topics:['Accounting','Finance','Marketing'], price:99 },
+      { name: 'Management', slug:'management', topics:['OB','HRM','Strategy'], price:99 },
+      { name: 'Economics', slug:'economics', topics:['Micro','Macro','Econometrics'], price:99 },
+      { name: 'Geography', slug:'geography', topics:['Climatology','Geomorphology'], price:99 },
+      { name: 'History', slug:'history', topics:['Ancient','Medieval','Modern'], price:99 },
+      { name: 'Political Science', slug:'polisci', topics:['Theory','Indian Polity','IR'], price:99 },
+      { name: 'Sociology', slug:'sociology', topics:['Theory','Methods','Indian Society'], price:99 },
+      { name: 'Education', slug:'education', topics:['Philosophy','Psychology'], price:99 },
+      { name: 'English', slug:'english', topics:['Literature','Criticism'], price:99 },
+      { name: 'Hindi', slug:'hindi', topics:['Sahitya','Vyakaran'], price:99 },
+      { name: 'Computer Science', slug:'cs', topics:['DSA','DBMS','Networks'], price:99 },
+    ];
+
+    const testimonials = [
+      { name:'Ritika • Commerce', text:'Crystal clear solutions. Helped me identify patterns quickly.' },
+      { name:'Aman • Paper I', text:'Loved the concise notes after each solution. Great for revision!' },
+      { name:'Kavya • Education', text:'The Hindi medium PDFs are clean and accurate. Sample was helpful.' },
+      { name:'Vivek • CS', text:'Topic tags saved time. I focused exactly where I was weak.' },
+      { name:'Meera • English', text:'Best PYQs I found—exam‑oriented, no fluff. Worth it.' },
+      { name:'Rahul • Economics', text:'Instant download after payment. Smooth experience.' },
+    ];
+
+    const i18n = {
+      en: {
+        dark:'Dark', accent:'Accent',
+        nav_subjects:'Subjects', nav_features:'Features', nav_pricing:'Pricing', nav_faqs:'FAQs', nav_cta:'Get Sample',
+        hero_badge:'Focused prep for UGC NET', hero_title:'Solved PYQs – English & Hindi. Subject‑wise PDFs. Free sample for every subject.', hero_sub:'Master UGC NET faster with clean, step‑by‑step solutions and exam‑oriented explanations. Download instantly.',
+        cta_primary:'Browse Subjects', cta_secondary:'See Pricing',
+        stat_rating:'4.9/5 from 2,000+ learners', stat_instant:'Instant download', stat_samples:'Free samples',
+        mockup_title:'Solved PYQs PDF', mockup_b1:'Clean layout with topic tags', mockup_b2:'Step-by-step solutions', mockup_b3:'Important notes + tricks',
+        btn_view_sample:'View Sample', btn_buy:'Buy',
+        feat_title:'Why our PYQs work 🚀', feat_sub:'Exam‑oriented solutions distilled from previous papers, aligned to the latest pattern. Save time, boost accuracy.',
+        feat_1_t:'Two mediums', feat_1_d:'Every subject in English and Hindi, consistent formatting.',
+        feat_2_t:'Free sample before buy', feat_2_d:'Preview a few pages to judge clarity & depth.',
+        feat_3_t:'Topic tags & shortcuts', feat_3_d:'Important formulas, mnemonics, and last‑minute notes.',
+        subj_title:'Choose your subject 📚', subj_sub:'Each subject includes solved PYQs + free sample. Select medium on the card.',
+        price_title:'Simple pricing 💳', price_sub:'Pay per subject or get a bundle. Instant download. UPI & cards accepted.',
+        plan1_badge:'Starter', plan1_unit:'/subject', plan_point_sample:'Free sample', plan_point_updates:'Lifetime access', plan_point_mediums:'English/Hindi', plan1_cta:'Buy Subject',
+        plan2_badge:'Popular', plan2_unit:'/any 5', plan2_point1:'Pick any 5 subjects', plan2_cta:'Get Bundle',
+        plan3_badge:'Complete', plan3_unit:'/all subjects', plan3_point1:'All current subjects', plan3_cta:'Get Complete',
+        test_title:'Learners love it ❤️', test_sub:'Clarity + exam focus = confidence.',
+        faq_title:'FAQs 🙋', faq1_q:'How do I get the sample PDF?', faq1_a:'Click “View Sample” on any subject card. A preview modal opens with a sample link.',
+        faq2_q:'Are these updated to the latest pattern?', faq2_a:'Yes. We regularly review papers and refine explanations to match current trends.',
+        faq3_q:'Which payment methods are supported?', faq3_a:'UPI, netbanking, and cards. After payment you get an instant download link.',
+        faq4_q:'Do I get both English & Hindi?', faq4_a:'You can purchase in your preferred medium. Both are available for all subjects listed.',
+        contact_title:'Get your free sample now ✉️', contact_sub:'Drop your email and subject. We’ll send the sample link instantly.', contact_cta:'Send me the sample',
+        support_title:'Prefer WhatsApp?', support_sub:'Ping us with subject name. We’ll reply with the sample & checkout link.',
+        foot_rights:'All rights reserved.', foot_terms:'Terms', foot_privacy:'Privacy', foot_refund:'Refund Policy'
+      },
+      hi: {
+        dark:'डार्क', accent:'एक्सेंट',
+        nav_subjects:'विषय', nav_features:'विशेषताएँ', nav_pricing:'कीमत', nav_faqs:'प्रश्नोत्तर', nav_cta:'सैंपल पाएँ',
+        hero_badge:'UGC NET की केंद्रित तैयारी', hero_title:'सॉल्व्ड PYQs – इंग्लिश व हिन्दी। विषय‑वार PDFs। हर विषय के लिए फ्री सैंपल।', hero_sub:'स्टेप‑बाय‑स्टेप व्याख्या और एग्ज़ाम‑ओरिएंटेड सॉल्यूशन्स के साथ तेज़ तैयारी। तुरंत डाउनलोड।',
+        cta_primary:'विषय देखें', cta_secondary:'कीमत देखें',
+        stat_rating:'2,000+ विद्यार्थियों की रेटिंग 4.9/5', stat_instant:'तुरंत डाउनलोड', stat_samples:'फ्री सैंपल',
+        mockup_title:'सॉल्व्ड PYQs PDF', mockup_b1:'टॉपिक टैग्स के साथ क्लीन लेआउट', mockup_b2:'स्टेप‑बाय‑स्टेप सॉल्यूशन्स', mockup_b3:'ज़रूरी नोट्स व ट्रिक्स',
+        btn_view_sample:'सैंपल देखें', btn_buy:'खरीदें',
+        feat_title:'हमारे PYQs प्रभावी क्यों हैं 🚀', feat_sub:'पिछले पेपर्स से निकले एग्ज़ाम‑ओरिएंटेड सॉल्यूशन्स, लेटेस्ट पैटर्न के अनुरूप। समय बचाएँ, सटीकता बढ़ाएँ।',
+        feat_1_t:'दो माध्यम', feat_1_d:'हर विषय इंग्लिश और हिन्दी में, एक जैसे फॉर्मैट में।',
+        feat_2_t:'खरीद से पहले सैंपल', feat_2_d:'कुछ पेज देखकर स्पष्टता व गहराई जाँचें।',
+        feat_3_t:'टॉपिक टैग्स व शॉर्टकट', feat_3_d:'ज़रूरी फ़ॉर्मूलाज़, निमोनिक्स और लास्ट‑मिनट नोट्स।',
+        subj_title:'अपना विषय चुनें 📚', subj_sub:'हर विषय में सॉल्व्ड PYQs + फ्री सैंपल। कार्ड पर माध्यम चुनें।',
+        price_title:'सरल कीमतें 💳', price_sub:'प्रति विषय भुगतान करें या बंडल लें। तुरंत डाउनलोड। UPI व कार्ड्स स्वीकार्य।',
+        plan1_badge:'स्टार्टर', plan1_unit:'/विषय', plan_point_sample:'फ्री सैंपल', plan_point_updates:'लाइफ़टाइम एक्सेस', plan_point_mediums:'इंग्लिश/हिन्दी', plan1_cta:'विषय खरीदें',
+        plan2_badge:'लोकप्रिय', plan2_unit:'/कोई 5', plan2_point1:'कोई भी 5 विषय चुनें', plan2_cta:'बंडल लें',
+        plan3_badge:'कम्प्लीट', plan3_unit:'/सभी विषय', plan3_point1:'सभी मौजूदा विषय', plan3_cta:'कम्प्लीट लें',
+        test_title:'स्टूडेंट्स को पसंद ❤️', test_sub:'क्लैरिटी + एग्ज़ाम फोकस = कॉन्फिडेन्स।',
+        faq_title:'प्रश्नोत्तर 🙋', faq1_q:'सैंपल PDF कैसे मिलेगा?', faq1_a:'किसी भी कार्ड पर “सैंपल देखें” क्लिक करें। प्रीव्यू मोडल खुलता है।',
+        faq2_q:'क्या ये लेटेस्ट पैटर्न के अनुसार हैं?', faq2_a:'हाँ, हम नियमित रूप से अपडेट करते हैं।',
+        faq3_q:'कौन‑कौन से पेमेंट तरीक़े हैं?', faq3_a:'UPI, नेटबैंकिंग व कार्ड्स। पेमेंट के बाद तुरंत लिंक मिलता है।',
+        faq4_q:'क्या मुझे इंग्लिश व हिन्दी दोनों मिलेंगे?', faq4_a:'आप अपनी पसंद का माध्यम चुन सकते हैं। दोनों उपलब्ध हैं।',
+        contact_title:'अपना फ्री सैंपल पाएँ ✉️', contact_sub:'ई‑मेल और विषय लिखें। सैंपल लिंक तुरंत भेजेंगे।', contact_cta:'सैंपल भेजें',
+        support_title:'व्हाट्सऐप बेहतर है?', support_sub:'विषय का नाम भेजें। हम सैंपल व पेमेंट लिंक देंगे।',
+        foot_rights:'सर्वाधिकार सुरक्षित।', foot_terms:'शर्तें', foot_privacy:'गोपनीयता', foot_refund:'रिफंड नीति'
+      }
+    };
+
+    const state = { lang:'en' };
+
+    function applyLang(){
+      const dict = i18n[state.lang];
+      document.querySelectorAll('[data-i18n]').forEach(el=>{
+        const key = el.getAttribute('data-i18n');
+        if(dict[key]) el.textContent = dict[key];
+      });
+      document.documentElement.lang = state.lang === 'hi' ? 'hi' : 'en';
+    }
+
+    function scrollToEl(sel){ document.querySelector(sel)?.scrollIntoView({behavior:'smooth'}); }
+
+    function renderSubjects(){
+      const q = document.getElementById('search').value.toLowerCase();
+      const m = document.getElementById('filterMedium').value;
+      const grid = document.getElementById('subjectGrid');
+      grid.innerHTML = '';
+      subjects
+        .filter(s => s.name.toLowerCase().includes(q))
+        .forEach(s => {
+          const card = document.createElement('div');
+          card.className = 'p-5 rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow hover:shadow-xl transition reveal';
+          card.innerHTML = `
+            <div class="flex items-center justify-between gap-3">
+              <div class="font-bold text-lg">${s.name}</div>
+              <div class="text-sm opacity-70">₹${s.price}</div>
+            </div>
+            <div class="mt-2 text-sm opacity-80">${s.topics.join(' • ')}</div>
+            <div class="mt-3 flex items-center gap-2">
+              <label class="text-xs opacity-70">Medium:</label>
+              <select class="px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-900/70 mediumSel">
+                <option>English</option>
+                <option>Hindi</option>
+              </select>
+            </div>
+            <div class="mt-4 grid grid-cols-2 gap-3">
+              <button class="px-4 py-2 rounded-xl bg-[color:var(--accent)] text-white btn sampleBtn">${i18n[state.lang].btn_view_sample}</button>
+              <button class="px-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 buyBtn">${i18n[state.lang].btn_buy}</button>
+            </div>
+          `;
+          grid.appendChild(card);
+          // filter by medium if needed
+          const sel = card.querySelector('.mediumSel');
+          if(m !== 'all' && sel.value !== m) sel.value = m;
+          card.querySelector('.sampleBtn').addEventListener('click', ()=> openSample(s.name));
+          card.querySelector('.buyBtn').addEventListener('click', ()=> openCheckout(s.name + ' ('+sel.value+')'));
+        });
+      revealOnScroll();
+    }
+
+    function renderTestimonials(){
+      const wrap = document.getElementById('testimonialTrack');
+      wrap.innerHTML = '';
+      testimonials.forEach(t => {
+        const el = document.createElement('div');
+        el.className = 'p-5 rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow reveal';
+        el.innerHTML = `<div class="flex items-center gap-3 mb-2">
+          <div class="h-10 w-10 rounded-full accent-gradient text-white grid place-items-center font-bold">★</div>
+          <div class="font-semibold">${t.name}</div></div>
+          <p class="opacity-80">${t.text}</p>`;
+        wrap.appendChild(el);
+      });
+      revealOnScroll();
+    }
+
+    function openSample(title){
+      document.getElementById('modalTitle').textContent = title + ' – Sample';
+      document.getElementById('modalBody').innerHTML = `
+        <div class="space-y-3">
+          <div class="p-3 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm">${state.lang==='hi' ? 'यह एक सैंपल प्रीव्यू है।' : 'This is a sample preview.'}</div>
+          <div class="h-64 rounded-xl bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-700 grid place-items-center relative overflow-hidden">
+            <svg class="w-24 h-24 opacity-25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/><path d="M14 2v6h6"/></svg>
+            <div class="absolute bottom-4 text-xs opacity-70">PDF preview placeholder</div>
+          </div>
+          <div class="flex gap-3">
+            <a href="#" class="px-4 py-2 rounded-xl bg-[color:var(--accent)] text-white btn" download>Download Sample</a>
+            <button class="px-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700" onclick="openCheckout('${title}')">Buy Now</button>
+          </div>
+        </div>`;
+      openModal();
+    }
+
+    function openCheckout(item){
+      document.getElementById('modalTitle').textContent = 'Checkout';
+      document.getElementById('modalBody').innerHTML = `
+        <div class="space-y-4">
+          <div class="flex items-center justify-between">
+            <div>
+              <div class="font-bold">${item}</div>
+              <div class="text-sm opacity-70">Instant PDF download</div>
+            </div>
+            <div class="text-xl font-black">₹<span id="priceVal">99</span></div>
+          </div>
+          <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+            <div class="text-sm font-semibold mb-2">Pay via UPI</div>
+            <div class="flex flex-wrap items-center gap-3">
+              <div class="rounded-xl border border-slate-200 dark:border-slate-700 p-3 text-sm">UPI ID: <span id="upiTxt">netpyqs@upi</span></div>
+              <button class="px-3 py-2 rounded-lg bg-emerald-500 text-white" onclick="copyUPI()">Copy</button>
+            </div>
+          </div>
+          <button class="w-full px-4 py-3 rounded-xl bg-[color:var(--accent)] text-white btn" onclick="fakePay()">Mark as Paid (Demo)</button>
+          <div id="payNote" class="text-sm opacity-70"></div>
+        </div>`;
+      openModal();
+    }
+
+    function openModal(){ document.getElementById('modal').classList.remove('hidden'); }
+    function closeModal(){ document.getElementById('modal').classList.add('hidden'); }
+    function copyUPI(){
+      const id = document.getElementById('upiTxt').textContent;
+      navigator.clipboard.writeText(id).then(()=>{
+        document.getElementById('payNote').textContent = state.lang==='hi' ? 'UPI आईडी कॉपी हो गई।' : 'UPI ID copied.';
+      });
+    }
+    function fakePay(){
+      document.getElementById('payNote').textContent = state.lang==='hi' ? 'डेमो: पेमेंट सफल। डाउनलोड लिंक ई‑मेल पर भेजा गया।' : 'Demo: Payment successful. Download link sent to email.';
+    }
+    function fakeSubmit(){
+      document.getElementById('formNote').textContent = state.lang==='hi' ? 'डेमो: सैंपल लिंक आपके ई‑मेल पर भेज दिया गया।' : 'Demo: Sample link sent to your email.';
+    }
+
+    function revealOnScroll(){
+      const els = document.querySelectorAll('.reveal');
+      const obs = new IntersectionObserver((entries)=>{
+        entries.forEach(e=>{ if(e.isIntersecting) { e.target.classList.add('revealed'); obs.unobserve(e.target);} });
+      },{ threshold:.12 });
+      els.forEach(el=> obs.observe(el));
+    }
+
+    // Controls
+    document.getElementById('accentPicker').addEventListener('input', e=>{
+      document.documentElement.style.setProperty('--accent', e.target.value);
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', e.target.value);
+    });
+
+    document.getElementById('toggleDark').addEventListener('click', ()=>{
+      document.documentElement.classList.toggle('dark');
+    });
+
+    document.getElementById('langToggle').addEventListener('change', (e)=>{
+      state.lang = e.target.checked ? 'hi' : 'en';
+      applyLang();
+      renderSubjects();
+    });
+
+    document.getElementById('search').addEventListener('input', renderSubjects);
+    document.getElementById('filterMedium').addEventListener('change', renderSubjects);
+
+    // Init
+    document.getElementById('yr').textContent = new Date().getFullYear();
+    applyLang();
+    renderSubjects();
+    renderTestimonials();
+    revealOnScroll();
+  </script>
+</body>
+</html>
