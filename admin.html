@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Panel</title>
+  <style>
+    body{font-family:Arial, sans-serif; max-width:600px; margin:2rem auto;}
+    label{display:block; margin-bottom:1rem;}
+    input[type="text"]{width:100%; padding:0.5rem;}
+    button{padding:0.5rem 1rem;}
+    ul{list-style:disc; margin-left:1.5rem;}
+  </style>
+</head>
+<body>
+  <h1>Upload Subject Resources</h1>
+  <form action="/admin/subject" method="post" enctype="multipart/form-data">
+    <label>Subject Name:
+      <input type="text" name="subject" required>
+    </label>
+    <label>Full PDF:
+      <input type="file" name="pdf" accept="application/pdf" required>
+    </label>
+    <label>Sample PDF:
+      <input type="file" name="samplePdf" accept="application/pdf">
+    </label>
+    <label>Image:
+      <input type="file" name="image" accept="image/*">
+    </label>
+    <button type="submit">Save</button>
+  </form>
+  <hr>
+  <h2>Existing Subjects</h2>
+  <ul id="list"></ul>
+  <script>
+    fetch('/subjects').then(r => r.json()).then(data => {
+      const list = document.getElementById('list');
+      data.forEach(s => {
+        const li = document.createElement('li');
+        li.innerHTML = `<strong>${s.name}</strong> - <a href="${s.pdf}">PDF</a> - <a href="${s.samplePdf}">Sample</a>`;
+        list.appendChild(li);
+      });
+    });
+  </script>
+</body>
+</html>
