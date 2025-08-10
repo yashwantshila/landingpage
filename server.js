@@ -88,12 +88,27 @@ app.post('/admin/subject', upload.fields([
   }
   const record = {
     name: req.body.subject,
+    price: req.body.price,
     pdf: req.files['pdf'] ? '/' + path.relative(__dirname, req.files['pdf'][0].path).replace(/\\/g, '/') : '',
     samplePdf: req.files['samplePdf'] ? '/' + path.relative(__dirname, req.files['samplePdf'][0].path).replace(/\\/g, '/') : '',
     image: req.files['image'] ? '/' + path.relative(__dirname, req.files['image'][0].path).replace(/\\/g, '/') : ''
   };
   subjects.push(record);
   fs.writeFileSync(dataPath, JSON.stringify(subjects, null, 2));
+  res.redirect('/admin');
+});
+
+app.post('/admin/update-price', (req, res) => {
+  const dataPath = path.join(__dirname, 'data', 'subjects.json');
+  let subjects = [];
+  if (fs.existsSync(dataPath)) {
+    subjects = JSON.parse(fs.readFileSync(dataPath));
+  }
+  const index = parseInt(req.body.index, 10);
+  if (!isNaN(index) && subjects[index]) {
+    subjects[index].price = req.body.price;
+    fs.writeFileSync(dataPath, JSON.stringify(subjects, null, 2));
+  }
   res.redirect('/admin');
 });
 
