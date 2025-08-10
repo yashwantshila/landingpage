@@ -29,6 +29,6 @@ describe('admin authentication', () => {
 
     const adminRes = await agent.get('/admin');
     expect(adminRes.statusCode).toBe(200);
-    expect(adminRes.text).toContain('Upload Subject Resources');
+    expect(adminRes.text).toContain('Admin Dashboard');
   });
 });
